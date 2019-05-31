@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -66,9 +66,58 @@ p {
     line-height: 1.4;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+
+}
+
+.navigation-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-end;
+	align-content: center;
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.dotted-divider {
+	border-top: 1.5px dotted;
+	width: 100%;
+}
+
+.top-image {
+	margin-bottom: 25px;
+	width: 800px;
+}
+
+top-content.wide-text {
+	width: 800px;
+	text-align: justify;
+	margin-bottom: 25px;
+	padding: 40%;
+
+}
+
+.wide-text.work {
+	margin-bottom: 10px;
+}
+
+button {
+	border-radius: 8px;
+	padding: 7px 20px 7px 20px;
+	border: 2px black solid;
 }
 
 .top-content {
@@ -82,7 +131,11 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+.top-content .text-container.about {
+	margin-top: 25px;
 }
 
 .middle-content {
@@ -101,6 +154,7 @@ p {
     justify-content: space-evenly;
 }
 
+
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -110,6 +164,46 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box.box-1 {
+	background-color: teal;
+}
+
+.boxes .box.box-2 {
+	background-color: gold;
+}
+
+.boxes .box.box-3 {
+	background-color: cadetblue;
+}
+
+.boxes .box.box-4 {
+	background-color: coral;
+}
+
+.boxes .box.box-5 {
+	background-color: crimson;
+}
+
+.boxes .box.box-6 {
+	background-color: forestgreen;
+}
+
+.boxes .box.box-7 {
+	background-color: darkorchid;
+}
+
+.boxes .box.box-8 {
+	background-color: hotpink;
+}
+
+.boxes .box.box-9 {
+	background-color: indigo;
+}
+
+.boxes .box.box-10 {
+	background-color: dodgerblue;
 }
 
 .bottom-content {
