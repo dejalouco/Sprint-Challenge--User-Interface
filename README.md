@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML markup is the use of specific, detailed so that other developers reading your code can differentiate between content. Instead of using for everything, you can use or to define content.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Block places each item on a new line, on top of each other. Inline places each item on the same line next to each other, provided there is space. Both are irrelevant thanks to flexbox!
 
 3. What are the 4 areas of the box model?
 
+Outside to inside: margin, padding, border, content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This aligns items vertically along the horizatonal axis.
+
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows developers to share files and code without having to directly email or dropbox them to one another. It also enables developers to collaborate with one another through Github clone, push, and pull requests. Github stores a version history that developers can access in case of bugs or needing to rollback versions of code.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +63,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
